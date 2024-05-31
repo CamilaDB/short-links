@@ -1,26 +1,16 @@
-# Sistema de encurtamento de URLs | Node.js na Prática
+# Sistema de encurtamento de URLs | Node.js na Prática | Rocketseat
 
-link: https://www.youtube.com/live/az7NpD02RM4?si=UfPCSlAcXeWKGy7f
+- Encurta URLs e monitora métricas de cliques nos links
 
-## tsconfig:
+- [Fastfy](https://fastify.dev/)
+- PostgreSQL e Redis usando Docker
+- [TypeScript](https://github.com/tsconfig/bases)
 
-https://github.com/tsconfig/bases
+##
 
-## POSTGRESQL:
+1. `npm install`
+2. `docker compose up -d`
+3. `npm run setup`
+4. `npm run dev`
 
-- banco relacional gratuito
-- docker ou https://console.neon.tech/app/welcome
-
-## REDIS:
-
-- não é banco relacional
-- casos de uso:
-  - cash de dados
-  - ranking
-  - ...
-- neste projeto será utilizado para criar um ranking
-- docker ou https://console.upstash.com/
-
-## Plugins:
-
-- REST Client
+Para testar os endpoits pode utilizar a extenção [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) e acessar o arquivo `client.http`.
